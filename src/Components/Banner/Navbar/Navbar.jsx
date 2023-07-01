@@ -11,8 +11,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full bg-transparent z-10">
       <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center py-4">
-          <h1  className="text-white text-3xl font-bold ps-5">
+        <div className="flex justify-between items-center ">
+          <h1  className="text-white text-3xl font-bold ">
             Nabeel Choudhuri
           </h1>
           <div className="md:hidden">

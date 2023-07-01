@@ -3,6 +3,7 @@ import Navbar from '../Banner/Navbar/Navbar';
 import { Outlet } from 'react-router-dom';
 import MainContent from '../MainContent/MainContent';
 
+
 const Home = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const Home = () => {
       {/* <MainContent></MainContent> */}
       
       <Outlet></Outlet>
+
 
       {/* <Footer></Footer> */}
       
