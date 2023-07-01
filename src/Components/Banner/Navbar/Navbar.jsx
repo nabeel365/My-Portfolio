@@ -66,30 +66,44 @@ const Navbar = () => {
             } md:flex md:space-x-4 mt-4 md:mt-0`}
           >
             <div className="relative">
-             <Link to="/home">
+             <Link to="/">
              <button
-                className="block text-white hover:text-gray-300 focus:outline-none"
+                className="block text-white font-bold hover:text-gray-300 focus:outline-none"
                 onClick={toggleMenu}
               >
-                Home
+                HOME
               </button>
              </Link>
             </div>
             <div className="relative">
+              <Link to="/about">
               <button
-                className="block text-white hover:text-gray-300 focus:outline-none"
+                className="block text-white font-bold hover:text-gray-300 focus:outline-none"
                 onClick={toggleMenu}
               >
-                About
+                ABOUT
               </button>
+              </Link>
             </div>
             <div className="relative">
+              <Link to="/resume">
               <button
-                className="block text-white hover:text-gray-300 focus:outline-none"
+                className="block text-white font-bold hover:text-gray-300 focus:outline-none"
                 onClick={toggleMenu}
               >
-                Contact
+                RESUME
               </button>
+              </Link>
+            </div>
+            <div className="relative">
+              <Link to="contact">
+              <button
+                className="block text-white font-bold hover:text-gray-300 focus:outline-none"
+                onClick={toggleMenu}
+              >
+                CONTACT
+              </button>
+              </Link>
             </div>
           </div>
         </div>

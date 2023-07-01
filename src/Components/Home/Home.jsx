@@ -7,8 +7,12 @@ const Home = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <MainContent></MainContent>
+
+      {/* <MainContent></MainContent> */}
+      
       <Outlet></Outlet>
+
+      {/* <Footer></Footer> */}
       
     </div>
   );
