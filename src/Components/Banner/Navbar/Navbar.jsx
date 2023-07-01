@@ -12,9 +12,9 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full bg-transparent z-10">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
-          <a href="#" className="text-white text-2xl font-bold">
-            Logo
-          </a>
+          <h1  className="text-white text-3xl font-bold ps-5">
+            Nabeel Choudhuri
+          </h1>
           <div className="md:hidden">
             {isMenuOpen ? (
               <button
@@ -60,10 +60,10 @@ const Navbar = () => {
               </button>
             )}
           </div>
-          <div
+          <div 
             className={`${
               isMenuOpen ? 'block' : 'hidden'
-            } md:flex md:space-x-4 mt-4 md:mt-0`}
+            } md:flex md:space-x-4 mt-4 md:mt-0 pr-5`}
           >
             <div className="relative">
              <Link to="/">
