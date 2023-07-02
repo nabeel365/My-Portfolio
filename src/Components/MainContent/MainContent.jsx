@@ -33,14 +33,14 @@ const MainContent = () => {
                 <div className="mt-4">
                   <Fade direction="up" delay={600} triggerOnce>
                     <a onClick={resumeDownload} href="Resume/Nabeel Choudhuri.pdf" download className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                     <button className='btn-lg rounded-2xl'> Download Resume</button>
+                      <button className='btn-lg rounded-2xl'>Download Resume</button>
                     </a>
                   </Fade>
                 </div>
               </div>
               <Fade cascade damping={0.2} triggerOnce>
-                <div className="max-w-sm rounded-lg shadow-2xl mt-6 lg:mt-0">
-                  <img src="https://img.freepik.com/premium-vector/businessman-avatar-cartoon-character-profile_18591-50141.jpg?w=2000" className="w-full h-auto" />
+                <div className="max-w-sm rounded-lg shadow-2xl mt-6 lg:mt-0" style={{ backgroundColor: 'transparent' }}>
+                  <img src="images/img.png" className="w-full h-auto" style={{ objectFit: 'contain' }} />
                 </div>
               </Fade>
             </div>
