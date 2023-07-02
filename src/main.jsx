@@ -12,6 +12,7 @@ import Resume from './Components/Banner/Navbar/NavbarLinks/Resume';
 import Contact from './Components/Banner/Navbar/NavbarLinks/Contact';
 import MainContent from './Components/MainContent/MainContent';
 import Skills from './Components/Skills/Skills';
+import Blogs from './Components/Blogs/Blogs';
 
 
 const router = createBrowserRouter([
@@ -28,8 +29,8 @@ const router = createBrowserRouter([
         element: <About></About>
       },
       {
-        path: 'resume',
-        element: <Resume></Resume>
+        path: 'blogs',
+        element: <Blogs></Blogs>
       },
       {
         path: 'contact',

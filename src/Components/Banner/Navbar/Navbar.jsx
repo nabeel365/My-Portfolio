@@ -85,16 +85,16 @@ const Navbar = () => {
               </button>
               </Link>
             </div>
-            {/* <div className="relative">
-              <Link to="/resume">
+            <div className="relative">
+              <Link to="/blogs">
               <button
                 className="block text-white font-bold hover:text-gray-300 focus:outline-none"
                 onClick={toggleMenu}
               >
-                RESUME
+                BLOGS
               </button>
               </Link>
-            </div> */}
+            </div>
             <div className="relative">
               <Link to="contact">
               <button

@@ -42,6 +42,7 @@ const Contact = () => {
           </svg>
           <span className="text-lg text-gray-300">Phone: +91 9002096373</span>
         </div>
+
       </div>
     </div>
   );

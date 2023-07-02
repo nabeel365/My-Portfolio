@@ -35,9 +35,9 @@ const Footer = () => {
           </div>
           <div>
             <h2 className="text-xl font-bold mb-4">Contact</h2>
-            <p className="mb-2">Phone: (123) 456-7890</p>
-            <p className="mb-2">Email: example@example.com</p>
-            <p>Address: 123 Main St, City, Country</p>
+            <p className="mb-2">Phone:+91 9002096373</p>
+            <p className="mb-2">Email: choudhurinabeel@gmail.com</p>
+            <p>Address: Kolkata, India</p>
           </div>
           <div>
             <h2 className="text-xl font-bold mb-4">Connect with Me</h2>
