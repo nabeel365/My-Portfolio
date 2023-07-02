@@ -1,4 +1,5 @@
 import React from 'react';
+import { Bounce } from 'react-awesome-reveal';
 
 const Skills = () => {
   const skills = [
@@ -11,6 +12,7 @@ const Skills = () => {
     { name: 'Responsive Design', color: 'bg-teal-500' },
     { name: 'Git and GitHub', color: 'bg-indigo-500' },
     { name: 'UI/UX Design', color: 'bg-orange-500' },
+    
   ];
 
   return (
@@ -18,15 +20,22 @@ const Skills = () => {
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl font-bold text-white text-center mb-6">Skills</h2>
         <div className="flex flex-wrap justify-center -mx-2">
-          {skills.map((skill) => (
-            <div
+          {skills.map((skill, index) => (
+            <Bounce
               key={skill.name}
-              className={`flex items-center justify-center rounded-full w-20 h-20 mx-2 mb-4 ${skill.color}`}
+              triggerOnce
+              direction={index % 2 === 0 ? 'up' : 'down'}
+              fraction={0.4}
+              delay={index * 100}
             >
-              <span className="text-white font-semibold text-lg text-center overflow-hidden whitespace-nowrap">
-                {skill.name}
-              </span>
-            </div>
+              <div
+                className={`flex items-center justify-center rounded-full w-20 h-20 mx-2 mb-4 ${skill.color}`}
+              >
+                <span className="text-white font-semibold text-lg text-center overflow-hidden whitespace-nowrap">
+                  {skill.name}
+                </span>
+              </div>
+            </Bounce>
           ))}
         </div>
       </div>
