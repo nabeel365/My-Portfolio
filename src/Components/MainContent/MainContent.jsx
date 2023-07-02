@@ -26,7 +26,8 @@ const MainContent = () => {
      <div className="hero-overlay bg-opacity-60"></div>
      <div className="hero-content text-center text-neutral-content">
        <div className="">
-         <div className="hero-content flex-col lg:flex-row-reverse">
+
+         <div className="hero-content min-h-screen flex-col lg:flex-row-reverse">
            <Fade cascade damping={0.2} triggerOnce>
              <img src="https://img.freepik.com/premium-vector/businessman-avatar-cartoon-character-profile_18591-50141.jpg?w=2000" className="max-w-sm rounded-lg shadow-2xl mt-6 lg:mt-0 lg:mr-6" />
            </Fade>

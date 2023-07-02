@@ -85,7 +85,7 @@ const Navbar = () => {
               </button>
               </Link>
             </div>
-            <div className="relative">
+            {/* <div className="relative">
               <Link to="/resume">
               <button
                 className="block text-white font-bold hover:text-gray-300 focus:outline-none"
@@ -94,7 +94,7 @@ const Navbar = () => {
                 RESUME
               </button>
               </Link>
-            </div>
+            </div> */}
             <div className="relative">
               <Link to="contact">
               <button
