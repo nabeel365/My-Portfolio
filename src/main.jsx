@@ -5,10 +5,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
-import Banner from './Components/Banner/Banner';
 import Home from './Components/Home/Home';
 import About from './Components/Banner/Navbar/NavbarLinks/About';
-import Resume from './Components/Banner/Navbar/NavbarLinks/Resume';
 import Contact from './Components/Banner/Navbar/NavbarLinks/Contact';
 import MainContent from './Components/MainContent/MainContent';
 import Skills from './Components/Skills/Skills';
