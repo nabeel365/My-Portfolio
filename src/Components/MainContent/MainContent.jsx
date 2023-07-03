@@ -24,15 +24,23 @@ const MainContent = () => {
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 sm:gap-x-96  items-center justify-center lg:justify-between"> {/* Updated grid layout and justify classes */}
-            <div className="text-container text-left ">
+          <div className="grid grid-cols-1 lg:grid-cols-2 sm:gap-x-96 items-center justify-center lg:justify-between">
+            <div className="text-container text-left">
               <Fade direction="left" triggerOnce>
-                <h1 className="text-5xl font-bold mb-4 text-white">Hello, <br /> I am <strong>Nabeel Choudhuri</strong>, Web Developer</h1>
+                <h1 className="text-5xl font-bold mb-4 text-white">
+                  <span className="text-accent"></span>Hello, I am <strong className="text-accent">Nabeel Choudhuri</strong>
+                </h1>
               </Fade>
               <Fade direction="left" delay={300} triggerOnce>
-                <p className="text-lg text-white">Welcome to my web developer portfolio! I specialize in creating responsive and dynamic websites that provide an exceptional user experience. Let&apos;s collaborate and bring your ideas to the digital world!</p>
+                <p className="text-3xl text-black font-bold">Web Developer</p>
               </Fade>
-              <div className="mt-4 flex justify-center lg:justify-start"> {/* Updated justify class */}
+              <br />
+              <Fade direction="left" delay={300} triggerOnce>
+                <p className="text-lg text-white">
+                  Welcome to my web developer portfolio! I specialize in creating responsive and dynamic websites that provide an exceptional user experience. Let&apos;s collaborate and bring your ideas to the digital world!
+                </p>
+              </Fade>
+              <div className="mt-4 flex justify-center lg:justify-start">
                 <Fade direction="up" delay={600} triggerOnce>
                   <a onClick={resumeDownload} href="Resume/Nabeel Choudhuri.pdf" download>
                     <button className="bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-6 rounded-full shadow-lg mr-4">
@@ -46,7 +54,7 @@ const MainContent = () => {
               </div>
             </div>
             <Fade cascade damping={0.2} triggerOnce>
-              <div className="max-w-sm rounded-lg shadow-2xl mt-6 lg:mt-0 bg-transparent"> {/* Removed padding class */}
+              <div className="max-w-sm rounded-lg shadow-2xl mt-6 lg:mt-0 bg-transparent">
                 <img src="images/img.png" className="w-full h-auto mx-auto" alt="Profile" />
               </div>
             </Fade>
