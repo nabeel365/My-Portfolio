@@ -29,7 +29,7 @@ const Skills = () => {
               delay={index * 100}
             >
               <div
-                className={`flex items-center justify-center rounded-full w-20 h-20 mx-2 mb-4 ${skill.color}`}
+                className={`flex items-center justify-center rounded-full w-24 h-24 mx-2 mb-4 ${skill.color}`}
               >
                 <span className="text-white font-semibold text-lg text-center overflow-hidden whitespace-nowrap">
                   {skill.name}
